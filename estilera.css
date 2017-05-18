@@ -1,0 +1,138 @@
+.sacola{
+  background: url(http://localhost:8080/img/sacola.png) no-repeat top right ;
+  font-size: 14px;
+  padding-right: 35px;
+  text-align: right;
+  width: 140px;
+  padding-top: 8px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.container {
+  margin: 0 auto;
+  width: 940px;
+}
+header{
+  position: relative;
+  border-bottom: 2px solid #333;
+}
+  .menu-opcoes{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  .menu-opcoes ul{
+  font-size: 15px;
+  margin-right: 30px;
+  }
+  .menu-opcoes ul li{
+    display: inline;
+    margin-left: 20px;
+  }
+  .menu-opcoes a{
+    color: #036;
+    text-decoration: none;
+    padding: 5px;
+  }
+  .busca {
+    background-color: #dcdcdc;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    width: 230px;
+    border: 1px solid;
+    border-color: #ccc;
+  }
+  .busca input {
+    vertical-align: middle;
+  }
+  .busca input[type=search] {
+    width: 170px;
+  }
+  .menu-departamentos {
+    background-color: #dcdcdc;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: bold;
+    width: 230px;
+    border: 1px solid;
+    border-color: #ccc;
+    margin-right: 10px;
+  }
+
+  .menu-departamentos li {
+    background-color: #fff;
+    position: relative;
+    width: 100%;
+    margin-bottom: 1px;
+    margin-left: -30px;
+    padding: 5px 10px;
+    list-style: none;
+    border-top: 1px solid;
+    border-color: #c0c0c0;
+  }
+  .menu-departamentos a {
+    color: #333;
+    text-decoration: none;
+  }
+  .busca h2,
+  .busca form,
+  .menu-departamentos h2 {
+    margin: 10px;
+  }
+  .busca,
+  .menu-departamentos {
+    float: left;
+  }
+  .menu-departamentos {
+    clear: left;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    height: 364px;
+  }
+  input[type|="search"] {
+    border-radius: 5px;
+  }
+  article{
+    margin-left: 116px;
+  }
+  footer{
+    height: 100px;
+    background-image: url(http://localhost:8080/img/fundo-rodape.png);
+    clear: both;
+    padding: 20px 0;
+  }
+  footer .container {
+    position: relative;
+  }
+  .social {
+    position: absolute;
+    top: 12px;
+    right: 0;
+  }
+  .social li {
+    float: left;
+    margin-left: 25px;
+  }
+  .social a {
+    /* tamanho da imagem */
+    height: 32px;
+    width: 32px;
+
+    /* image replacement */
+    display: block;
+    text-indent: -9999px;
+  }
+
+  .social a[href*="facebook.com"] {
+    background-image: url(http://localhost:8080/img/facebook.png);
+  }
+
+  .social a[href*="twitter.com"] {
+    background-image: url(http://localhost:8080/img/twitter.png);
+  }
+
+  .social a[href*="plus.google.com"] {
+    background-image: url(http://localhost:8080/img/googleplus.png);
+  }
